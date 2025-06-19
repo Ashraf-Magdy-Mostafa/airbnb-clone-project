@@ -2,13 +2,16 @@
 StayEase is a full-stack clone of Airbnb, focusing on building a functional web application that allows users to browse listings, view detailed property information, and make secure bookings. The goal is to implement responsive and accessible UI/UX, while applying best practices in component-based frontend architecture.
 
 
+
 # 🛠 Tech Stack
 * Frontend: HTML, CSS, JavaScript (React)
 * Version Control: Git & GitHub
 * Design Tools: Figma
 
 
+
 # ✨ UI/UX Design Planning
+
 
 ## 🎯 Design Goals
 * Create an intuitive booking flow
@@ -16,13 +19,11 @@ StayEase is a full-stack clone of Airbnb, focusing on building a functional web 
 * Optimize performance for fast loading times
 * Prioritize mobile responsiveness
 
-
 ## 🌟 Key Features
 * Property search and filtering
 * Detailed property viewing
 * Secure checkout process
 * User authentication
-
 
 ## 📄 Primary Pages
 |Page|	Description|
@@ -34,7 +35,10 @@ StayEase is a full-stack clone of Airbnb, focusing on building a functional web 
 ## ✅ Importance of User-Friendly Design
 A frictionless and intuitive interface **improves the user journey**, **boosts conversion rates**, and **builds trust**. Mobile responsiveness and clean navigation **ensure accessibility** for all users.
 
+
+
 # 🎨 Figma Design Specifications
+
 
 ## 🎨 Color Styles
 * Primary: ![](https://placehold.co/15x15/FF5A5F/FF5A5F.png) `#FF5A5F`
