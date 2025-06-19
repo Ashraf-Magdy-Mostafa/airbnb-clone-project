@@ -147,7 +147,7 @@ The Airbnb Clone project is a full-stack web application that simulates the core
 |   **Technology**    |                          **Purpose**                         |
 | :------------------ | :----------------------------------------------------------- |
 | Django              | Backend framework to build APIs and manage business logic    |
-| MySQL               | Relational database for storing structured data              |
+| MySQL/PostgresSql   | Relational database for storing structured data              |
 | GraphQL             | Alternative to REST for querying APIs (optional integration) |
 | Docker              | Containerization for consistent development environments     |
 | GitHub Actions      | Automate testing and deployment processes                    |
