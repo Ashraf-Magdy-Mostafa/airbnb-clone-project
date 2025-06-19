@@ -159,21 +159,30 @@ The Airbnb Clone project is a full-stack web application that simulates the core
 
 
 ## 🗃️ Database Design
+
 **Entities and Sample Fields**:
 
 * **User**
   * id, username, email, password_hash
-- **Property**
-  - id, Ref User_ID, title, description, location, price
-- **Booking**
-  - id, user_id, property_id, start_date, end_date
-- **Review**
-  - id, user_id, property_id, rating, comment
-- **Payment**
-  - id, booking_id, amount, status, payment_date
+* **Property**
+  * id, Ref User_ID, title, description, location, price
+* **Booking**
+  * id, user_id, property_id, start_date, end_date
+* **Review**
+  * id, user_id, property_id, rating, comment
+* **Payment**
+  * id, booking_id, amount, status, payment_date
 
 **Relationships**:
-- A **User** can list multiple **Properties**
-- A **Booking** links a **User** to a **Property**
-- A **Review** belongs to a **User** and a **Property**
-- A **Payment** is tied to a specific **Booking**
+* A **User** can list multiple **Properties**
+* A **Booking** links a **User** to a **Property**
+* A **Review** belongs to a **User** and a **Property**
+* A **Payment** is tied to a specific **Booking**
+
+
+## 🚀 Feature Breakdown
+* **User Management**: Sign-up, login, and user profile features.
+* **Property Management**: Users can list properties, add details, and manage them.
+* **Booking System**: Authenticated users can book available properties.
+* **Review System**: Users can leave reviews and ratings after stays.
+* **Payment Handling**: Users can pay for bookings via integrated payment gateway.
