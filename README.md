@@ -55,4 +55,21 @@ A frictionless and intuitive interface **improves the user journey**, **boosts c
 * Secondary Text: Book (400), 14px
 
 ## 🔍 Why Design Properties Matter
-Identifying design properties like colors and typography ensures consistency and alignment with the original design. It allows developers to accurately translate mockups into real UI, maintaining visual and functional integrity.
+Identifying design properties like colors and typography ensures consistency and alignment with the original design. It allows developers to accurately translate mockups into real UI, maintaining visual and functional integriy.
+
+
+
+# 🧑‍💻 Project Rolesand Responsibilities
+|       **Role**	   |                      **Responsibiites**                             |
+| :------------------- | :------------------------------------------------------------------ |
+| ProjectManage        |    coordinates team, manages timeline, ensures deliverables         |
+| Frontend Deveper     |	Build UI components, implement responsive design                 |
+| Backend Deeloers     |	Build APIs, manage database, implement logic                     |
+| Designers            |    Create mockups, maintain design system, ensure UX                |
+| QA/Testers           |	Write test cases, perform testing, report bugs                   |
+| DevOps Engineers     |	Manage deployment, CI/CD, server infrastructure                  |
+| Product Owner        |	Define requirements, prioritize features, align vision           |
+| Scrum Master         |	Facilitate agile process, remove blockers, organize sprints      |
+
+
+
