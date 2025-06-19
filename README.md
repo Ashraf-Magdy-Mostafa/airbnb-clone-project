@@ -161,7 +161,6 @@ The Airbnb Clone project is a full-stack web application that simulates the core
 ## 🗃️ Database Design
 
 **Entities and Sample Fields**:
-
 * **User**
   * id, username, email, password_hash
 * **Property**
@@ -201,3 +200,12 @@ Key Functions:
 - Ensure safe financial transactions
 - Prevent unauthorized data access
 - keep the integrity of the platform by preventing malicious behaviors
+
+
+## 🔄 CI/CD Pipeline
+- **What It Is**: A process that automates code testing, building, and deployment.
+- **Why It Matters**: Improves productivity, ensures reliable deployment, and reduces human error.
+- **Tools**:
+  - **GitHub Actions**: For automated tests and builds
+  - **Docker**: To package and run the app consistently across environments
+  - **CircleCI**: automates CI/CD With github Repo's
