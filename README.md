@@ -73,3 +73,47 @@ Identifying design properties like colors and typography ensures consistency and
 
 
 
+# 🧩 UI Component Patterns
+The user interface for StayEase will be composed of reusable, accessible, and responsive components. Based on the current Figma design, each component is designed to adapt across devices and screen sizes using a hybrid of CSS Grid and Flexbox where appropriate.
+
+
+## 🔧Planned Components
+
+#### ✅ Navbar
+* Logo
+* Location search with date and guest fields
+* Search button
+* Sign In / Sign Up buttons
+* Responsive layout using Flexbox
+
+### ✅ Hero Section
+* Full-width image with heading and subheading
+* Central call-to-action
+* Layout handled with CSS Grid to manage text positioning over image
+
+### ✅ Category Icon Strip
+* Scrollable set of property categories (e.g., Rooms, Mansion, Villa)
+* Icon + label for each type
+* Implemented using Flexbox with wrap and horizontal scrolling on smaller screens
+
+### ✅ Property Filter Buttons
+* Tags like “Top Villa,” “Free Reschedule,” “Instant Book,” etc.
+* Responsive grid of filter buttons
+* Built with CSS Grid to handle wrapping across breakpoints
+
+### ✅ Property Card
+* Property image
+* Title, price, location, and rating
+* Favorite/like button
+* Responsive column layout via CSS Grid for listings
+
+### ✅ Footer
+* Site links
+* Company information
+* Social media links
+* Copyright
+
+## 🧠 Design Philosophy
+* **Reusability**: Each component will be abstracted and reused across views for consistency.
+* **Accessibility**: Components will follow WCAG 2.1 standards including keyboard navigation, proper contrast, and ARIA labels.
+* **Responsiveness**: Mobile-first design approach using a mix of Flex (for linear layouts) and Grid (for more complex two-dimensional arrangements).
