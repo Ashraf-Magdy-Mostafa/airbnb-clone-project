@@ -128,11 +128,13 @@ The user interface for StayEase will be composed of reusable, accessible, and re
 ## 📌 Project Overview
 The Airbnb Clone project is a full-stack web application that simulates the core features of Airbnb. It focuses on backend development, database design, secure APIs, and CI/CD pipelines. The goal is to deliver a scalable and secure booking platform using modern technologies and best practices.
 
+
 ## 🎯 Project Goals
 - Build a scalable backend architecture
 - Implement secure and RESTful APIs
 - Apply CI/CD principles
 - Practice collaborative GitHub workflows
+
 
 ## 🧑‍💻 Team Roles
 |        **Role**        |                   **Responsibilities**                    |
@@ -142,6 +144,7 @@ The Airbnb Clone project is a full-stack web application that simulates the core
 | DevOps Engineer        | Set up CI/CD pipelines, handle Docker and GitHub Actions  |
 | QA Engineer            | Test APIs and ensure system reliability                   |
 | Security Specialist    | Ensure data and endpoint security using best practices    |
+
 
 ## 🛠️ Technology Stack
 |   **Technology**    |                          **Purpose**                         |
@@ -153,3 +156,24 @@ The Airbnb Clone project is a full-stack web application that simulates the core
 | GitHub Actions      | Automate testing and deployment processes                    |
 | Postman             | API testing and documentation                                |
 | Markdown            | Documentation for code and project processes                 |
+
+
+## 🗃️ Database Design
+**Entities and Sample Fields**:
+
+* **User**
+  * id, username, email, password_hash
+- **Property**
+  - id, Ref User_ID, title, description, location, price
+- **Booking**
+  - id, user_id, property_id, start_date, end_date
+- **Review**
+  - id, user_id, property_id, rating, comment
+- **Payment**
+  - id, booking_id, amount, status, payment_date
+
+**Relationships**:
+- A **User** can list multiple **Properties**
+- A **Booking** links a **User** to a **Property**
+- A **Review** belongs to a **User** and a **Property**
+- A **Payment** is tied to a specific **Booking**
