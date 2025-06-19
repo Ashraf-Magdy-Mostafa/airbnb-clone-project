@@ -59,7 +59,7 @@ Identifying design properties like colors and typography ensures consistency and
 
 
 
-# 🧑‍💻 Project Rolesand Responsibilities
+# 🧑‍💻 Project Roles and Responsibilities
 |       **Role**	   |                      **Responsibiites**                             |
 | :------------------- | :------------------------------------------------------------------ |
 | ProjectManage        |    coordinates team, manages timeline, ensures deliverables         |
