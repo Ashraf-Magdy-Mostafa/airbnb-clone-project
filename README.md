@@ -33,3 +33,22 @@ StayEase is a full-stack clone of Airbnb, focusing on building a functional web 
 
 ## ✅ Importance of User-Friendly Design
 A frictionless and intuitive interface **improves the user journey**, **boosts conversion rates**, and **builds trust**. Mobile responsiveness and clean navigation **ensure accessibility** for all users.
+
+# 🎨 Figma Design Specifications
+
+## 🎨 Color Styles
+* Primary: ![](https://placehold.co/15x15/FF5A5F/FF5A5F.png) `#FF5A5F`
+* Secondary: ![](https://placehold.co/15x15/008489/008489.png) `#008489`
+* Background: ![](https://placehold.co/15x15/FFFFFF/FFFFFF.png) `#FFFFFF`
+* Text: ![](https://placehold.co/15x15/222222/222222.png) `#222222`
+* Secondary Text: ![](https://placehold.co/15x15/717171/717171.png) `#717171`
+
+## 📝 Typography
+* Primary Font: Circular
+* Font Weights & Sizes:
+* Headings: Bold (700), 24px–32px
+* Body Text: Medium (500), 16px
+* Secondary Text: Book (400), 14px
+
+## 🔍 Why Design Properties Matter
+Identifying design properties like colors and typography ensures consistency and alignment with the original design. It allows developers to accurately translate mockups into real UI, maintaining visual and functional integrity.
